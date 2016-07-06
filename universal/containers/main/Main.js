@@ -4,12 +4,16 @@
 
 import React from 'react'
 
+import s from './main.pcss'
+
 import Partners from '../../components/partners/Partners'
+import Features from '../../components/features/Features'
 
 export default class Main extends React.Component {
     render() {
         return  <div>
                     <Partners/>
+                    <Features/>
                 </div>
     }
 }
