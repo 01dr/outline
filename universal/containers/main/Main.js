@@ -4,8 +4,12 @@
 
 import React from 'react'
 
+import Partners from '../../components/partners/Partners'
+
 export default class Main extends React.Component {
     render() {
-        return  <div>outline.</div>
+        return  <div>
+                    <Partners/>
+                </div>
     }
 }
