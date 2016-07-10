@@ -14,6 +14,7 @@ import Products from '../../components/products/Products'
 import Benefits from '../../components/benefits/Benefits'
 import Features3 from '../../components/features-3/Features3'
 import Price from '../../components/price/Price'
+import Subscribe from '../../components/subscribe/Subscribe'
 
 export default class Main extends React.Component {
     render() {
@@ -26,6 +27,7 @@ export default class Main extends React.Component {
                     <Benefits/>
                     <Features3/>
                     <Price/>
+                    <Subscribe/>
                 </div>
     }
 }

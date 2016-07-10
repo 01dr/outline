@@ -1,77 +1,35 @@
 /* Created by Space Invader on 06.04.2016. */
 
 .button {
-  color: #fefefe;
-  font-family: 'Roboto';
-  font-size: 16px;
-  padding: 12px 24px;
-  background-color: #f17030;
-  font-weight: 800;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  touch-action: manipulation;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.42857;
+  font-family: "Montserrat", arial, sans-serif;
   text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
-  outline: none;
-  transition: .2s ease all;
-
-  &.large {
-    font-size: 18px;
-    padding: 15px 30px;
-  }
-
-  &.small {
-    font-size: 14px;
-    padding: 5px 10px;
-  }
-
-  &.grey {
-    background-color: #adbfc3;
-
-    &:hover {
-      background-color: #99adb2;
-    }
-  }
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  transition: 0.5s;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+  font-size: 11px;
+  font-weight: 400;
+  border-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  background: #30beac;
 
   &:hover {
-    background-color: #e86829;
-  }
-
-  &:disabled {
-    background-color: rgba(241, 112, 48, 0.7);
-  }
-}
-
-.exitButtonComponent {
-  display: block;
-  background-color: transparent;
-  border: none;
-  position: relative;
-  padding: 10px 40px 10px 10px;
-  outline: none;
-  cursor: pointer;
-  color: #000;
-
-  & > .text {
-    display: inline-block;
-    font-family: "Roboto";
-    color: #000;
-    font-weight: 800;
-    font-size: 15px;
-  }
-
-  & > .icon {
-    display: inline-block;
-    margin: 0 0 0 15px;
-    width: 36px;
-    height: 36px;
-    background-color: #E3EBEC;
-    border-radius: 50%;
-    position: absolute;
-    top: 1px;
-
-    & > svg {
-      position: relative;
-      top: 10px;
-      left: 11px;
-    }
+    outline: none;
+    background: #30beac;
+    border-color: transparent;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.25);
   }
 }
