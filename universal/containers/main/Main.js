@@ -15,19 +15,23 @@ import Benefits from '../../components/benefits/Benefits'
 import Features3 from '../../components/features-3/Features3'
 import Price from '../../components/price/Price'
 import Subscribe from '../../components/subscribe/Subscribe'
+import Footer from '../../components/footer/Footer'
 
 export default class Main extends React.Component {
     render() {
         return  <div>
-                    <Partners/>
-                    <Features/>
-                    <Features2/>
-                    <Counter/>
-                    <Products/>
-                    <Benefits/>
-                    <Features3/>
-                    <Price/>
-                    <Subscribe/>
+                    <div className={s.pageWrapper}>
+                        <Partners/>
+                        <Features/>
+                        <Features2/>
+                        <Counter/>
+                        <Products/>
+                        <Benefits/>
+                        <Features3/>
+                        <Price/>
+                        <Subscribe/>
+                    </div>
+                    <Footer/>
                 </div>
     }
 }
