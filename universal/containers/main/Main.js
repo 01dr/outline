@@ -13,6 +13,7 @@ import Counter from '../../components/counter/Counter'
 import Products from '../../components/products/Products'
 import Benefits from '../../components/benefits/Benefits'
 import Features3 from '../../components/features-3/Features3'
+import Price from '../../components/price/Price'
 
 export default class Main extends React.Component {
     render() {
@@ -24,6 +25,7 @@ export default class Main extends React.Component {
                     <Products/>
                     <Benefits/>
                     <Features3/>
+                    <Price/>
                 </div>
     }
 }
