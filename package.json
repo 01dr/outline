@@ -91,6 +91,7 @@
     "react-router": "^2.0.0",
     "react-router-redux": "^4.0.0",
     "react-select": "^1.0.0-beta13",
+    "react-slick": "^0.12.2",
     "reactify": "^1.1.1",
     "redux": "^3.3.1",
     "redux-devtools": "^3.1.1",

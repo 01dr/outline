@@ -9,6 +9,7 @@ import s from './main.pcss'
 import Partners from '../../components/partners/Partners'
 import Features from '../../components/features/Features'
 import Features2 from '../../components/features-2/Features2'
+import Testimonials from '../../components/testimonials/Testimonials'
 import Counter from '../../components/counter/Counter'
 import Products from '../../components/products/Products'
 import Benefits from '../../components/benefits/Benefits'
@@ -24,6 +25,7 @@ export default class Main extends React.Component {
                         <Partners/>
                         <Features/>
                         <Features2/>
+                        <Testimonials/>
                         <Counter/>
                         <Products/>
                         <Benefits/>
