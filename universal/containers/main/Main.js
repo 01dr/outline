@@ -15,7 +15,6 @@ import Products from '../../components/products/Products'
 import Benefits from '../../components/benefits/Benefits'
 import Features3 from '../../components/features-3/Features3'
 import Price from '../../components/price/Price'
-import Faq from '../../components/faq/Faq'
 import Subscribe from '../../components/subscribe/Subscribe'
 import Footer from '../../components/footer/Footer'
 
@@ -32,7 +31,6 @@ export default class Main extends React.Component {
                         <Benefits/>
                         <Features3/>
                         <Price/>
-                        <Faq/>
                         <Subscribe/>
                     </div>
                     <Footer/>
